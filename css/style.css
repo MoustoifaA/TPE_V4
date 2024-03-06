@@ -1,0 +1,11 @@
+.navbar a {
+    text-decoration: none;
+}
+
+.container {
+    background: linear-gradient(to bottom, #6CC5FD, white);
+}
+
+article {
+    text-align: justify;
+}

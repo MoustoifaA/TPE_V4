@@ -11,37 +11,67 @@
     <meta name="description" content="TPE d'une premiere s sur l'aviation, Quels sont les phénomènes et mécanismes permettant à un avion de décoller et de le maintenir en l'air?">
     <meta name="robots" content="index">
 
+    <!-- regles css qui vont rectifier certaines choses de bootstrap -->
+    <link rel="stylesheet" href="css/style.css"> 
+
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   
 </head>
 
-<body class="w-75 position-absolute top-0 start-50 translate-middle-x">
-    <header>
+<body class="container">
+
+<div class="w-75 position-absolute top-0 start-50 translate-middle-x"> 
+    <header >
         <h1>
             Aviation
         </h1>
-        <nav >
-            <ul>
-                <li><a href="Home.html">Accueil</a></li>
-                <li><a href="Histoire.html">Histoire</a></li>
-                <li><a href="Physique-de-lavion.html">Physique de l'avion</a></li>
-                <li><a href="Conclusion.html">Conclusion</a></li>
-                <li><a href="Nous.html">Nous</a></li>
-            </ul>
+        <nav class="navbar p-2 mb-2" style="background-color: #C9EBFD;">
+            
+            <a style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Accueil</a>
+            <a style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Histoire</a>
+            <a style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Physique de l'avion</a>
+            <a style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Conclusion</a>
+            <a style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Nous</a>
+            
         </nav>
     </header>
 
-    <main >
+    <main>
         <!-- Main content goes here -->
         <article>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laudantium perferendis iusto quasi, amet dolorem nemo fugit ea quaerat, consequuntur numquam eaque provident aut, quod commodi laborum voluptatem quis laboriosam recusandae! Consequatur dolore voluptates eum quam quae at, cumque sequi nostrum quasi, dolorem cum repellat cupiditate praesentium natus ab quod nobis debitis! Dolorum perferendis eius illum? Totam non harum aspernatur, provident modi commodi iure hic perspiciatis in ea? Voluptates deserunt nostrum nesciunt ducimus excepturi error unde, repellat totam cupiditate rem quos laudantium dolorem aliquid recusandae dolores reiciendis ut natus qui commodi! Eveniet natus quae quod velit eligendi eos facilis, qui ipsa non quibusdam, a dolores. Laborum atque harum ab reiciendis. Eligendi earum quasi nostrum libero eaque modi autem quisquam quod alias aspernatur officia nihil porro quo sapiente, in praesentium amet natus iste omnis? Officia quisquam aliquid sapiente, reiciendis sint quod dolorem consectetur voluptate, ipsam repellendus eos ullam explicabo odio sed fugit ratione nam aliquam quae. Officia totam accusantium eius dolorem quo distinctio repudiandae praesentium impedit, sunt dolores illo ab vel quos perspiciatis fugit aperiam asperiores debitis itaque placeat porro corporis error minima explicabo. Tenetur eum laudantium sapiente rem adipisci fuga perspiciatis nihil aliquam aut enim molestiae, temporibus earum rerum eius quis numquam quibusdam. Commodi, magni veniam. Iusto perferendis quibusdam nesciunt cumque, quos necessitatibus esse fugiat magni voluptatibus voluptates voluptas nostrum libero iste rerum dolore voluptate laborum dolor asperiores quam error, eveniet veritatis suscipit praesentium molestiae! Repellat amet necessitatibus beatae maiores consectetur modi quas soluta commodi illum, repellendus similique. Officia accusantium quos ducimus ab vitae, modi eum laboriosam tempore in, illo labore obcaecati? Nemo voluptatibus accusamus fugit dicta deleniti, numquam sint molestiae! Iusto, qui beatae. Praesentium consequuntur fuga saepe fugit quisquam, adipisci quam reiciendis. Dolorum, repellat reprehenderit est maxime accusamus dolor quibusdam quos illum adipisci ea quia at, inventore aliquid laboriosam!</p>
-        </article>
+        <p>
+    Le mot Aviation ( du mot latin avis &laquo;&nbsp;oiseau&nbsp;&raquo; et actio &laquo;&nbsp;action&nbsp;&raquo; )  a &eacute;t&eacute; employer pour la premi&egrave;re fois par <a href="https://fr.wikipedia.org/wiki/Guillaume_Joseph_Gabriel_de_La_Landelle" >Gabriel De La Laudelle</a> en 1863  dans le livre Aviation au navigation a&eacute;rienne sans ballon racontant les  tentatives des vols de Jean-Marie de Bris dans appareil plus lourd que  l&rsquo;aire.</p> 
+    
+    <p>
+    Ce n&rsquo;est que quelques ann&eacute;es plus tard en 1875 que le terme  &laquo;&nbsp;avion&nbsp;&raquo; est utilise par <a href="https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Ader" >Cl&eacute;ment Ader</a> pour d&eacute;sign&eacute; sa s&eacute;ries  d&rsquo;appareils volant.</p>
+
+    <p>
+    Cependant les mots avion et aviation ne  deviennent communs que &agrave; partir de la premi&egrave;re guerre  mondiale.</p>
+    
+    <p>De nos jours presque tous le monde dans notre soci&eacute;t&eacute; a d&eacute;j&agrave; pris  l&rsquo;avion, c&rsquo;est un des moyens de transport le plus utilis&eacute; et le moyen  de transport le plus s&ucirc;r de notre &eacute;poque.
+    </p>
+
+    <p>N&eacute;anmoins, les proc&eacute;d&eacute;s permettant de faire voler un avion ne sont  pas aussi &eacute;vidents. Ainsi notre TPE tournera autour de la probl&eacute;matique  suivante&nbsp;: 
+    </p>
+
+    <p><u>Quels sont les ph&eacute;nom&egrave;nes  et m&eacute;canismes permettant &agrave; un avion de d&eacute;coller  et de le maintenir en l&rsquo;air ?</u> 
+    </p>
+
+    <p>Pour  r&eacute;pondre &agrave; cette  probl&eacute;matique le plus simplement possible on effectuera des  exp&eacute;riences.
+    </p>
+
+    <p>Dans un premier temps, un rapide historique du vol, puis nous nous  int&eacute;resserons au d&eacute;collage et enfin la maintenance de l&rsquo;avion dans les  airs.
+    </p>
+
+    </article>
     </main>
 
     <footer >
-        <p>Copyright MX Corporation 2008, tous droits réservés</p>
+        <p>Copyright NoobLife 2024, tous droits réservés.</p>
     </footer>
+
+</div>
 
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
