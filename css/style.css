@@ -1,8 +1,9 @@
 .navbar a {
     text-decoration: none;
+    font-size: larger;
 }
 
-.container {
+body {
     background: linear-gradient(to bottom, #6CC5FD, white);
 }
 
