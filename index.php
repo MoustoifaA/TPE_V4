@@ -35,7 +35,7 @@
             <a style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Histoire</a>
             <a style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Physique de l'avion</a>
             <a style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Conclusion</a>
-            <a style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Nous</a>
+            <a style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Commentaires</a>
             
         </nav>
     </header>
@@ -72,7 +72,7 @@
 
           <ariticle id="history" class="p-3 border bg-light card" hidden>
               
-           <h3 class="text-center">Engin plus dense que l&rsquo;air</h3>
+           <h3 class="text-center"><u>Engin plus dense que l&rsquo;air</u></h3>
               <p>&nbsp;&nbsp; Pendant des si&egrave;cles le plus grand r&ecirc;ve de l&rsquo;homme a
                 &eacute;t&eacute; de voler, et ce fut leurs but communs mais seulement quelques-uns se sont immortalis&eacute;s
                 gr&acirc;ce &agrave; leurs brillantes innovations. En effet, Le premier homme, que l&rsquo;on peut
@@ -97,7 +97,7 @@
                 pour essayer de d&eacute;couvrir le moyen de contr&ocirc;ler leurs engins dans les airs.</p>
               <p> ( Vid&eacute;o, Image, et Photo ou croquis&hellip;)</p>
 
-              <h3 class="text-center"> Les D&eacute;buts du Vol </h3>
+              <h3 class="text-center"> <u>Les D&eacute;buts du Vol </u></h3>
               <p>&nbsp;&nbsp;Le vol libre a &eacute;t&eacute; initi&eacute; par <a href="https://fr.wikipedia.org/wiki/Otto_Lilienthal">Otto Lilienthal</a> (1848-1896). Ce constructeur de planeurs r&eacute;alisa de nombreux vols sur
                 des engins particuli&egrave;rement bien con&ccedil;us. Scientifique, il construisait, modifiait et notait le fruit
                 de ses recherches. Il construisait des planeurs &agrave; ailes de type delta afin d&rsquo;assurer une bonne
@@ -147,7 +147,7 @@
                 moment on voit apparaitre les r&eacute;acteurs dans les ann&eacute;es 40 et le mur du son est franchi par Chuck
                 Yeager le 14 Octobre 1947.</p>
 
-              <h3 class="text-center"> Les Avions de nos Jours</h3>
+              <h3 class="text-center"> <u>Les Avions de nos Jours</u></h3>
               <p>&nbsp;&nbsp;De nos jours, les avions sont tr&egrave;s performants et capables de traverser
                 l'oc&eacute;an Atlantique en 3H30 avec le Concorde ou encore de r&eacute;aliser des d&eacute;collages et
                 atterrissage verticaux avec le XFY-1 ! La p&eacute;riode 1958-1970 est marqu&eacute;e par l'exploration du domaine
@@ -167,9 +167,9 @@
           </ariticle>
 
           
-          <ariticle id="physic" class="p-3 border bg-light card">
-            <h3 align="center"><strong><u>Physique de vol</u></strong></h3>
-              <p align="center">&nbsp;</p>
+          <ariticle id="physic" class="p-3 border bg-light card" hidden>
+            <h3 class="text-center"><strong><u>Physique de vol</u></strong></h3>
+              
               <ul>
                 <li><strong><u>Evolution selon 3 Axes</u></strong></li>
               </ul>
@@ -178,8 +178,8 @@
                 d'un avion en vol et permettent de la diriger.<br />
                 En effet, Avion &eacute;volue selon 3 axes&nbsp;:<strong> </strong> <br />
                 <img width="252" height="176" src="Images/Physique de l'avion_clip_image002.gif" align="left" hspace="12"
-                  alt="http://aerodynamismetpe1eres.ifrance.com/image/image002.gif" /><img
-                  src="Images/Physique de l'avion_clip_image004.gif" alt="rererer" width="11" height="11" />&nbsp;<strong>La
+                  alt="schéma avion tangage lacet roulis" /><img
+                  src="Images/Physique de l'avion_clip_image004.gif" alt="fleche rouge" width="11" height="11" />&nbsp;<strong>La
                   gouverne de profondeur : le tangage</strong><br />
                 L'axe de tangage passe d'une extr&eacute;mit&eacute; d'aile &agrave; l'autre. La rotation autour de l'axe est
                 obtenue par une action sur la commande de profondeur. <br />
@@ -334,8 +334,27 @@
               </p>
 
           </ariticle>
-          <ariticle class="p-3 border bg-light card"></ariticle>
-          <ariticle class="p-3 border bg-light card"></ariticle>
+
+          <ariticle class="p-3 border bg-light card" hidden>
+            <h3 class="text-center"> <u>Conclusion</u></h3> 
+            <p>
+              Nous avons donc appris que voler devint possible d&egrave;s le moment o&ugrave; l&rsquo;homme connut les
+              propri&eacute;t&eacute;s de l&rsquo;air. Mais l&rsquo;homme devait ma&icirc;triser d&rsquo;autres
+              ph&eacute;nom&egrave;nes physiques (notamment les lois de Newton) pour comprendre comment faire voler un objet
+              plus lourd que l&rsquo;air. La physique du vol nous a permis de mettre en &eacute;vidence les forces qui
+              s&rsquo;exercent sur un avion. Ces forces se r&eacute;sumant au nombre de quatre sont la pouss&eacute;e, la
+              tra&icirc;n&eacute;e, le poids et la portance qui est le facteur le plus important pour faire voler un avion.
+              Cette portance s&rsquo;explique par le fait que l&rsquo;air au-dessus de l&rsquo;aile (extrados) va plus vite
+              qu&rsquo;en dessous (intrados) et comme le stipule le principe de Bernoulli, plus l&rsquo;air va vite plus la
+              pression diminue. Cette vitesse plus &eacute;lev&eacute;e &agrave; l&rsquo;extrados entra&icirc;ne donc une
+              d&eacute;pression qui &laquo; aspire &raquo; l&rsquo;aile vers le haut. Cette succions est d&rsquo;autant plus
+              importante que la vitesse et l&rsquo;incidence augmentent. C&rsquo;est le miracle de la nature qui permet
+              &agrave; un avion plus lourd que l&rsquo;air de vaincre la pesanteur et, par cons&eacute;quent, de se maintenir
+              dans les cieux.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>      
+
+          </ariticle>
+          
 
     </main>
 
@@ -346,6 +365,8 @@
 
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="js/app.js"></script>
 </body>
 
 </html>
