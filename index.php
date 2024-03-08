@@ -31,10 +31,10 @@
         </h1>
         <nav class="navbar p-2 mb-2" >
             
-            <a style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Accueil</a>
-            <a style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Histoire</a>
-            <a style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Physique de l'avion</a>
-            <a style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Conclusion</a>
+            <a id ="home" style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Accueil</a>
+            <a id="history" style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Histoire</a>
+            <a id="physics" style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Physique de l'avion</a>
+            <a id="conclusion" style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Conclusion</a>
             <a style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Commentaires</a>
             
         </nav>
@@ -43,7 +43,7 @@
     <main>
         <!-- Main content goes here -->
         
-          <article id ="home" class="p-3 border bg-light card" hidden>
+          <article  class="home p-3 border bg-light card" >
                 <p>
               Le mot Aviation ( du mot latin avis &laquo;&nbsp;oiseau&nbsp;&raquo; et actio &laquo;&nbsp;action&nbsp;&raquo; )  a &eacute;t&eacute; employer pour la premi&egrave;re fois par <a href="https://fr.wikipedia.org/wiki/Guillaume_Joseph_Gabriel_de_La_Landelle" >Gabriel De La Laudelle</a> en 1863  dans le livre Aviation au navigation a&eacute;rienne sans ballon racontant les  tentatives des vols de Jean-Marie de Bris dans appareil plus lourd que  l&rsquo;aire.</p> 
               
@@ -70,7 +70,7 @@
 
           </article>
 
-          <ariticle id="history" class="p-3 border bg-light card" hidden>
+          <article class="history p-3 border bg-light card">
               
            <h3 class="text-center"><u>Engin plus dense que l&rsquo;air</u></h3>
               <p>&nbsp;&nbsp; Pendant des si&egrave;cles le plus grand r&ecirc;ve de l&rsquo;homme a
@@ -164,10 +164,10 @@
                 Airbus (Toulouse, Europe) et Boeing (Seattle, USA). Ces deux grandes compagnies se partagent le march&eacute;
                 mondial de l'aviation civile. </p>
               
-          </ariticle>
+          </article>
 
           
-          <ariticle id="physic" class="p-3 border bg-light card" hidden>
+          <article  class="physics p-3 border bg-light card">
             <h3 class="text-center"><strong><u>Physique de vol</u></strong></h3>
               
               <ul>
@@ -333,9 +333,9 @@
                 <strong>Cf Fichier Excel &laquo;&nbsp;<a href="Portance.xls">Portance&nbsp;</a>&raquo;</strong>
               </p>
 
-          </ariticle>
+          </article>
 
-          <ariticle class="p-3 border bg-light card" hidden>
+          <article class="conclusion p-3 border bg-light card">
             <h3 class="text-center"> <u>Conclusion</u></h3> 
             <p>
               Nous avons donc appris que voler devint possible d&egrave;s le moment o&ugrave; l&rsquo;homme connut les
@@ -353,7 +353,7 @@
               dans les cieux.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </p>      
 
-          </ariticle>
+          </article>
           
 
     </main>

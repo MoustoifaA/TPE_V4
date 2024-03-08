@@ -4,14 +4,26 @@ const app = {
     },
 
     bind: function(){
-        document.querySelector("#home").hidden = false;
+        app.resetHidden();
+        document.querySelector(".home").hidden = false;
         for (const link of document.querySelectorAll(".navbar a")) {
-            link.addEventListener("click", handleNav);
+            link.addEventListener("click", app.handleNav);
         }
     },
 
-    handleNav: function(){
-        
+    handleNav: function(event){
+
+        app.resetHidden();
+
+        if(event.currentTarget.id)
+        document.querySelector("."+event.currentTarget.id).hidden = false;
+
+    },
+
+    resetHidden: function(){
+        for (const article of document.querySelectorAll("article")) {
+            article.hidden = true;
+        }
     }
 };
 
