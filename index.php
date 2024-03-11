@@ -35,7 +35,7 @@
             <a id="history" style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Histoire</a>
             <a id="physics" style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Physique de l'avion</a>
             <a id="conclusion" style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Conclusion</a>
-            <a style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Commentaires</a>
+            <a id="livre" style="--bs-link-hover-color-rgb: 255, 255, 255;" href="#">Livre d'or</a>
             
         </nav>
     </header>
@@ -354,6 +354,18 @@
             </p>      
 
           </article>
+
+          <article class="livre p-3 border bg-light card">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Prenom</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ton prenom">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Ton message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+          </article>
           
 
     </main>
@@ -366,7 +378,7 @@
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <script src="js/app.js"></script>
+    <script src="js/app.js" type="module"></script>
 </body>
 
 </html>
